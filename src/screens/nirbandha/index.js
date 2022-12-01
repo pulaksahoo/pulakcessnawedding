@@ -26,7 +26,7 @@ function Nirbandha() {
                     screen={"nonHome"}
                     event = {"Nirbandha"}
                     dateTime={"12th Jan, 11 AM Onwards"}
-                    location={"Maa Gadachandi Mandira, \n Cantonment Rd, Biju Patnaik Colony, Cuttack"}
+                    location={"Ram Mandir, \n CDA Sector VI, Cuttack, Odisha 753014"}
                     background={Nirbandhabackground}
                     logo={NirbandhaLogo}
                 />
@@ -38,7 +38,7 @@ function Nirbandha() {
                 
                 />
                 <HowToReachCuttack/>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5039714985073!2d85.86352671487417!3d20.48555658629514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1912126947a1ab%3A0x540d48a60583cba8!2sMaa%20Gadachandi%20Mandira!5e0!3m2!1sen!2sin!4v1669715263916!5m2!1sen!2sin" height="600" width="100%" style={{marginTop:20}}></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119615.83194571719!2d85.80311322600556!3d20.46540887968491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1911fdba09723b%3A0xc7c2a4cb86793399!2sRam%20Mandir!5e0!3m2!1sen!2sin!4v1669898989511!5m2!1sen!2sin" height="600" width="100%" style={{marginTop:20}}></iframe>
                 <FooterSectionOther
                     image="Herculture"
                     imagelink={"https://www.herculture.org/blog/2015/7/22/the-big-fat-indian-i-do"}
