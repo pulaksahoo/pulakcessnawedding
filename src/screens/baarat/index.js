@@ -41,7 +41,11 @@ function Baarat() {
                 />
                 <HowToReach/>
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.184284370194!2d85.80288111486267!3d19.789782386682464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c57e797d007b%3A0x274dae054afd4e0d!2sHotel%20Sweet%20Villa(Sea%20View)!5e0!3m2!1sen!2sin!4v1669716094219!5m2!1sen!2sin" height="600" width="100%" style={{marginTop:20}}></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.184284370194!2d85.80288111486267!3d19.789782386682464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c57e797d007b%3A0x274dae054afd4e0d!2sHotel%20Sweet%20Villa(Sea%20View)!5e0!3m2!1sen!2sin!4v1669716094219!5m2!1sen!2sin" 
+                height="600" 
+                width="100%" style={{marginTop:20}}>
+                    
+                </iframe>
                 <FooterSectionOther
                     imagelink={"https://timesofindia.indiatimes.com/life-style/spotlight/from-baraats-to-dolis-brides-and-grooms-rev-it-up-with-vintage-cars-this-shaadi-season/articleshow/87873902.cms"}
                     image = "Times of India"

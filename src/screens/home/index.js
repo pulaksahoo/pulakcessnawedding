@@ -45,7 +45,14 @@ function Home() {
                     <HelloSection/>
                     <CarouselView/>
                     <HowtoReachPuri/>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdAtL9lVCG2Wmcsvg7FeyMRsWlacUpOhLY8gHoJ7ZWaGFDRZQ/viewform?embedded=true" width="640" height="2250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe  
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdAtL9lVCG2Wmcsvg7FeyMRsWlacUpOhLY8gHoJ7ZWaGFDRZQ/viewform?embedded=true"
+                        width="100%"
+                        height= "600"  
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0"
+                    >Loading…</iframe>
                     <FooterSection/>
                 </Fragment>
                 {/* <WeddingSection isInvitation={true} /> */}
@@ -59,5 +66,6 @@ function Home() {
         </div>
     )
 }
+
 
 export default Home;

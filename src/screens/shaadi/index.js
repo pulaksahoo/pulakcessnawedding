@@ -40,7 +40,8 @@ function Shaadi() {
                 
                 />
                 <HowToReach/>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3754.184284056213!2d85.8028811!3d19.7897824!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sThe%20Hans%20Coco%20Palms%2C%20Puri!5e0!3m2!1sen!2sin!4v1669714829274!5m2!1sen!2sin" height="600" width="100%" style={{marginTop:20}}></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3754.184284056213!2d85.8028811!3d19.7897824!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sThe%20Hans%20Coco%20Palms%2C%20Puri!5e0!3m2!1sen!2sin!4v1669714829274!5m2!1sen!2sin" 
+                height="600" width="100%" style={{marginTop:20}}></iframe>
                 <FooterSectionOther
                     image = "Popsugar"
                     imagelink="https://www.popsugar.com/love/photo-gallery/37099462/image/37099549/Traditional-Indian-Wedding-San-Francisco"

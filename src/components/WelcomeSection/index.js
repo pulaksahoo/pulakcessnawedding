@@ -71,7 +71,7 @@ function WelcomeSection({ onClickDetail, homeScreen, event, dateTime, location, 
         <div className="container">
           <div className="row" css={styWrapper}>
             <div style={{justifyContent:"center", marginTop: 10}}className="col-md-8 col-md-offset-2 text-center">
-              <img style={logo?{width: 150, height: 150, marginBottom: 30,  marginTop: 30}:{width: 300, height: 300}} src={logo || WeddingImg} alt="wedding-dinda-indra" />
+              <img style={logo?{width: 150, height: 150, marginBottom: 30,  marginTop: 30}:{width: 300, height: 300}} src={logo || WeddingImg} alt="wedding-cessna-pulak" />
               <h4 style={{fontFamily:"cursive", marginTop: 10,color:"whitesmoke"}} className="sub-title">{"The " + event + " of"}</h4>
               <h1 style={{fontFamily:"cursive", color:"whitesmoke"}} className="title">{!pulak ?"Cessna & Pulak": "Pulak"}</h1>
               <div className={ 'margin__bottom'}>

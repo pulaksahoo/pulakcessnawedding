@@ -10,13 +10,13 @@ import  CarouselImage from  "../../assets/images/carousel.jpg"
 
 
 
-const rendercarousetlFrame = (event, time, date, location1, location2, location3) => {
+const rendercarousetlFrame = (logo, event, time, date, location1, location2, location3) => {
   return (
     <div  style={{width:"100%", height:"100%"}}>
       
       <div style={{border: '4px solid white',borderRadius: '10px', background:"transparent",margin: 20}}>
       <div style={{width:"100%", justifyContent:"center", alignItems:"center", display:"flex"}}>
-        <img  style={{alignSelf:"center",background: "transparent"}} width={50} height={50} src={ require('../../assets/images/logo1.png') } />
+        <img  style={{alignSelf:"center",background: "transparent", marginTop: 25,width: "70%"}} width={50} height={50} src={logo } />
       </div>
        <div style={{padding: 20}}> 
        <h3 style={{color: "white"}}>{event}</h3>
@@ -95,19 +95,19 @@ const rendercarousetlFrame = (event, time, date, location1, location2, location3
   )
 }
 
-let nirbandha = rendercarousetlFrame("Nirbandha","11 AM Onwards", "12th Jan Thursday", "Maa Gadachandi Mandira", "Cantonment Rd, Biju Patnaik Colony", " Cuttack, Odisha");
+let nirbandha = rendercarousetlFrame( require('../../assets/images/nirbandhalogo.png'),"Nirbandha","11 AM Onwards", "12th Jan Thursday", "Ram Mandir,", "CDA Sector VI,", " Cuttack, Odisha");
 
-let mehendi = rendercarousetlFrame("Mehendi","1 PM Onwards", "9th Feb Thursday", "Conference Lawn,", "The Hans Coco Palm,", "Puri");
+let mehendi = rendercarousetlFrame( require('../../assets/images/mehendilogo.png'),"Mehendi","1 PM Onwards", "9th Feb Thursday", "Conference Lawn,", "The Hans Coco Palm,", "Puri");
 
-let sangeet = rendercarousetlFrame("Ring Ceremony & Sangeet ","6 PM Onwards", "9th Feb Thursday", "Conference Hall,", "The Hans Coco Palm,", "Puri");
+let sangeet = rendercarousetlFrame(require('../../assets/images/wedding-logo.png'), "Ring Ceremony & Sangeet ","6 PM Onwards", "9th Feb Thursday", "Conference Hall,", "The Hans Coco Palm,", "Puri");
 
-let haldi = rendercarousetlFrame("Haldi","11 AM Onwards", "10th Feb Friday", "Palm Garden,", "The Hans Coco Palm,", "Puri");
+let haldi = rendercarousetlFrame(require('../../assets/images/haldilogo.png'), "Haldi","11 AM Onwards", "10th Feb Friday", "Palm Garden,", "The Hans Coco Palm,", "Puri");
 
-let baarat = rendercarousetlFrame("Baarat","5 PM Onwards", "10th Feb Friday", "Will start near Hotel Sweet Villa(Sea View),", "1kms from The Hans Coco Palm,", "Puri");
+let baarat = rendercarousetlFrame(require('../../assets/images/baaratlogo.png'), "Baarat","5 PM Onwards", "10th Feb Friday", "Will start near Hotel Sweet Villa(Sea View),", "1kms from The Hans Coco Palm,", "Puri");
 
-let wedding = rendercarousetlFrame("Wedding","7 PM Onwards", "10th Feb Friday", "Poolside Lawn,", "The Hans Coco Palm,", "Puri");
+let wedding = rendercarousetlFrame(require('../../assets/images/shaadilogo.png'), "Shaadi","7 PM Onwards", "10th Feb Friday", "Poolside Lawn,", "The Hans Coco Palm,", "Puri");
 
-let reception = rendercarousetlFrame("Reception","7 PM Onwards", "12th Feb Sunday", "The Tulip,", "Mayfair, Rourkela", "Panposh Road, Rourkela");
+let reception = rendercarousetlFrame(require('../../assets/images/receptionlogo.png'), "Reception","7 PM Onwards", "12th Feb Sunday", "The Tulip,", "Mayfair, Rourkela", "Panposh Road, Rourkela");
 
 
 
@@ -134,7 +134,7 @@ let buttonSetting = {
 };
 
 let manner = {
-  autoSliding: { interval: "2s" }
+  autoSliding: { interval: "4s" }
   //, duration: "0.3s"
 };
 
